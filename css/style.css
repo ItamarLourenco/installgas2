@@ -1056,7 +1056,7 @@ section.top_banner_bg:after {
 
 .section_heading h2::after {
   bottom: -34px;
-  content: "";
+  content: "\f06d";
   font-family: fontawesome;
   font-size: 30px;
   left: 0;
@@ -1426,10 +1426,14 @@ section.our_service_bg:after {
 
 
 section.price_table_bg {
-  background: url(../images/price_table_bg.png) repeat scroll 0 0;
   position:relative;
+  margin:0px;
+  padding: 0px;
 }
-
+.price_table_bg iframe{
+  width: 100%;
+  height:600px;
+}
 
 
 
